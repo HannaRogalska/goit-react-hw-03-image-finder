@@ -13,6 +13,7 @@ class Searchbar extends Component {
 
   onChangeInput = e => {
     const value = e.target.value;
+    
     this.setState({ value });
   };
 
